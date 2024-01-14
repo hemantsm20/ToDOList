@@ -44,3 +44,34 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/your-username/ToDoList.git
+   
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Configure MongoDB:
+
+   - Create a MongoDB Atlas account: MongoDB Atlas
+   - Create a cluster and obtain your connection string
+   - Replace the connection string in app.js with your own MongoDB connection string
+  
+4. Run the application:
+   ```bash
+    node app.js
+   
+## Usage
+Access the app's main page to view and manage your default ToDo list.
+Create custom lists by navigating to http://localhost:3001/custom-list-name.
+Add tasks, update their status, or delete them as needed.
+
+## Technologies Used
+    -Node.js
+    -Express
+    -MongoDB
+    
+## Contributing
+Feel free to contribute to the project. Fork the repository and create a pull request with your changes.
+
+## Acknowledgments
+Thanks to lodash for utility functions
