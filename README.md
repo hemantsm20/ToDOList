@@ -10,7 +10,6 @@ A simple ToDoList web application built using Node.js, Express, and MongoDB.
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
